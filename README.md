@@ -11,6 +11,7 @@
 
 
 ### Coverage screenshot:
+자세한 내용은 ./mission2/htmlcov.zip 참고바랍니다
 <img src="./mission2/coverage_1.png">
 <img src="./mission2/coverage_2_1.png">
 <img src="./mission2/coverage_2_2.png">
