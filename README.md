@@ -1,4 +1,4 @@
-## 2025-09-22, CRA 10차수, 박윤상 (AI센터)
+# 2025-09-22, CRA 10차수, 박윤상 (AI센터)
 
 ## Table for Requirement Check List
 | Check List |  O / X   |
