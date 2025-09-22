@@ -197,24 +197,3 @@ def test_file_not_found(capsys):
     captured = capsys.readouterr()
     assert "파일을 찾을 수 없습니다." in captured.out
 
-
-# def test_process_file_not_found(monkeypatch):
-#     def mock_open(*args, **kwargs):
-#         raise FileNotFoundError
-#
-#     monkeypatch.setattr(Path, "open", mock_open)
-#     system = AttendanceSystem()
-#     with pytest.raises(FileNotFoundError):
-#         system.process_file()  # But actually, it catches and prints
-#
-#     # Wait, the code catches FileNotFoundError and prints message
-#     # So, use capsys
-#     def test_process_file_not_found(capsys, monkeypatch):
-#         def mock_open(*args, **kwargs):
-#             raise FileNotFoundError
-#
-#         monkeypatch.setattr(Path, "open", mock_open)
-#         system = AttendanceSystem()
-#         system.process_file()
-#         captured = capsys.readouterr()
-#         assert "파일을 찾을 수 없습니다." in captured.out
